@@ -1,0 +1,269 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:doc="http://xsltsl.org/xsl/documentation/1.0" xmlns:dt="http://xsltsl.org/date-time" xmlns:str="http://xsltsl.org/string" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+  <head>
+    <META http-equiv="Content-Type" content="text/html; charset=utf-16">
+    <title>William Blackwell</title>
+    <style type="text/css" id="static">
+    html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+    body{line-height:1;background:#FFF;text-align:left}
+	body {line-height: 1; background: #FFF; text-align: left; font-feature-settings: "liga" 0; -moz-font-feature-settings: "liga" off;}
+    ol,ul{list-style:none}
+    blockquote,q{quotes:none}
+    blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}
+    :focus{outline:0}
+    ins{text-decoration:none}
+    del{text-decoration:line-through}
+    table{border-collapse:collapse;border-spacing:0}
+    a img{border:none}
+    ul,li{list-style-type:disc;margin:0 0 0 10px;padding:0}
+    ul li{margin:0 0 0 13px}
+    .clear{clear:both;height:0}
+    br.clear{line-height:0}
+    div.name{font-size:15px;font-weight:bold;line-height:17px;padding:0;text-transform:uppercase;border-top:6px solid #58585B;padding:18px 0 0 0}
+    div.logo{display:none}
+    div.paragraph{position:relative}
+    div.heading{clear:both;color:#231F20;text-transform:uppercase;font-style:italic;font-weight:bold}
+    div.address,div.address2{position:relative;font-size:0.917em;line-height:1.25em;color:#808284}
+    div.address{text-transform:uppercase}
+    .grayItl{font-style:italic;color:#C3C3C3}
+    span.companyname,span.degree,div.smry,span.skils{font-weight:bold}
+    span.companyname,span.degree{text-transform:uppercase}
+    span.email{color:#00ADEF;text-transform:lowercase}
+    .table_wrapper{width:100%;margin-top:0}
+    table.twocol td{width:50%}
+    table.twocol{width:100%}
+    span.paddedline{display:block}
+    .nodisplay{display:none}
+    div#document{color:#666;}<!--to remove background-color later at time of delivery-->
+    div#document p font{color:#666!important}
+    td.twocol_2{border-left:1px  solid #FFF}
+
+    /*FIX for FORCEFULLY making left margin ZERO for CL*/
+    div#document .sectionCL{border:none!important}
+    div#document .sectionCL .paragraph{margin-top:0!important}
+  </style>
+    <style type="text/css" id="unparsed">
+    div#document{line-height:{$FTLH}px;color:#404041}
+    div#document table{line-height:{$FTLH}px}
+    div#document.pagesize{width:{$DOCW}px;}
+    div#document.vmargins{padding-top:{$TBMR}px;padding-bottom:{$TBMR}px;}
+    div#document.hmargins{padding-left:{$LRMR}px;padding-right:{$LRMR}px;}
+    div#document .section{margin-top:{$SCSP}px;border-top:{$LNWT}px solid #B2B0BF}
+    div#document div.firstsection{margin-top:0;border:none;}
+    div#document div.SECTION_CNTC{margin-top:0;padding-bottom:{$CIMB}px;border:none}
+    div#document div.heading{margin-bottom:{$SHMB}px}
+    div#document div.paragraph{margin-top:{$PSPC}px}
+    div#document div.firstparagraph{margin-top:0}
+    div#document .singlecolumn,div#document .maincolumn{margin-left:{$PIND}px;width:{$MACW}px}
+    .fontsize{font-size:{$FTSZ}px}
+    .fontface{font-family:{$FTFC}}
+    div#document div.sectiontitle{font-size:{$HDSZ}px;line-height:{$HDLH}px}
+    div.name{font-size:{$NMSZ}px;line-height:{$NMLH}px}
+    div.address{font-size:{$CISZ}px;line-height:{$CILH}px}
+    div.smry{font-size:{$SMRY}px}
+    div#document table.skills td{padding-top:{$TDMT}px}
+
+    /*FIX for Re-calculating width of singlecolumn for CL*/
+    div#document .sectionCL .singlecolumn{margin-left:0!important;width:100%}
+    div.address2{font-size:{$FTSZ}px;line-height:{$FTLH}px}
+    div#document .sectionDateCL{padding-top:{$SCSP}px}
+  </style>
+    <style type="text/css" id="dynamic">
+    div#document{line-height:16px;color:#404041}
+    div#document table{line-height:16px}
+    div#document.pagesize{width:508px;}
+    div#document.vmargins{padding-top:42px;padding-bottom:42px;}
+    div#document.hmargins{padding-left:52px;padding-right:52px;}
+    div#document .section{margin-top:14px;border-top:1px solid #B2B0BF}
+    div#document div.firstsection{margin-top:0;border:none;}
+    div#document div.SECTION_CNTC{margin-top:0;padding-bottom:5px;border:none}
+    div#document div.heading{margin-bottom:5px}
+    div#document div.paragraph{margin-top:11px}
+    div#document div.firstparagraph{margin-top:0}
+    div#document .singlecolumn,div#document .maincolumn{margin-left:0px;width:508px}
+    .fontsize{font-size:11px}
+    .fontface{font-family:"Palatino Linotype", Palatino, serif}
+    div#document div.sectiontitle{font-size:13px;line-height:23px}
+    div.name{font-size:22px;line-height:32px}
+    div.address{font-size:10px;line-height:21px}
+    div.smry{font-size:12px}
+    div#document table.skills td{padding-top:5px}
+
+    /*FIX for Re-calculating width of singlecolumn for CL*/
+    div#document .sectionCL .singlecolumn{margin-left:0!important;width:100%}
+    div.address2{font-size:11px;line-height:16px}
+    div#document .sectionDateCL{padding-top:14px}
+  </style>
+  </head>
+  <body>
+    <div id="document" class="fontsize fontface vmargins hmargins linespacing pagesize">
+      <div id="SECTION_PICT933324263" class=" firstsection"></div>
+      <div id="SECTION_NAME933324262" class="section">
+        <div id="PARAGRAPH_933324262_1_613853825" class="paragraph PARAGRAPH_NAME firstparagraph">
+        <div class="name">
+          <span class="field" id="933324262FNAM1">William</span> <span> </span> <span class="field" id="933324262LNAM1">Blackwell</span>
+        </div>
+      </div>
+      </div>
+      <div id="SECTION_CNTC933324258" class="section SECTION_CNTC">
+        <div id="PARAGRAPH_933324258_1_613853826" class="paragraph PARAGRAPH_CNTC firstparagraph">
+        <div class="address">
+          <span class="paddedline">
+            <span class="field" id="933324258STRT1">1406 Danbury Dr.</span><span>, </span><span class="spaced field" id="933324258CITY1">Mansfield</span><span>, </span><span class="spaced field" id="933324258STAT1">TX</span><span> </span><span class="spaced field" id="933324258ZIPC1">76063</span>
+          </span>
+          <span class="paddedline">
+            <span class="field" id="933324258HPHN1"></span>
+            
+            <span>C: </span><span class="field" id="933324258CPHN1">210 589-0620</span>
+            <span> | </span>
+            <span class="field email" id="933324258EMAI1">wbprogramming@icloud.com</span>
+          </span>
+        </div>
+      </div>
+      </div>
+      <div id="SECTION_ALNK933354544" class="section SECTION_ALNK">
+        <div id="PARAGRAPH_933354544_1_613876224" class="paragraph firstparagraph">
+                <div class="adnlLnks singlecolumn">
+                    <ul>
+                        <li class="first"><span class="field" id="933354544LNK11"><a target="_blank" href="LinkedIn https://www.linkedin.com/in/william-blackwell-471723136/">LinkedIn https://www.linkedin.com/in/william-blackwell-471723136/</a></span></li>
+                        <li><span class="field" id="933354544LNK21"><a target="_blank" href="GitHub https://github.com/Simunition715">GitHub https://github.com/Simunition715</a></span></li>
+                        
+                    </ul>
+                </div>
+            </div>
+      </div>
+      <div id="SECTION_SUMM933324264" class="section">
+        <div class="heading">
+        <div id="SECTNAME_SUMM933324264" class="sectiontitle">Professional Summary</div>
+      </div>
+        <div id="PARAGRAPH_933324264_1_613875472" class="paragraph smry firstparagraph">
+        <div class="field singlecolumn" id="933324264FRFM1">Knowledge in three Full stacks from Mapping Databases with ERD's to Deployment. Utilizing time to write clear, concise and Team friendly code while always thriving to learn more and very quick to pick up new technology. Team player and self sufficient individual who has a passion for Coding and retains Excellent work ethic.</div>
+      </div>
+      </div>
+      <div id="SECTION_HILT933324261" class="section">
+        <div class="heading">
+        <div id="SECTNAME_HILT933324261" class="sectiontitle">Skills</div>
+      </div>
+        <div id="PARAGRAPH_933324261_1_613870059" class="paragraph firstparagraph">
+        <div class="singlecolumn maincolumn">
+          <table class="twocol">
+            <tr>
+              <td class="field twocol_1" id="933324261SKC11"><ul><li class="hasParaEle">
+
+
+
+
+
+
+
+<strong>Languages </strong>Ruby, JavaScript, Python</li></ul><ul><li class="hasParaEle">
+
+
+
+
+
+
+
+<strong>Databases</strong>
+SQL (MySQL, SQLite), NoSQL (MongoDB), Mongoose</li></ul><ul><li class="hasParaEle">
+
+
+
+
+
+
+
+<strong>Frameworks</strong> Rails, Express, Angular, Flask</li></ul><ul><li class="hasParaEle">
+
+
+
+
+
+
+
+<strong>Front-End</strong> HTML5, CSS3, jQuery, Bootstrap, Materialize</li></ul></td>
+              <td class="field twocol_2" id="933324261SKC21"><ul><li class="hasParaEle"><strong>Servers </strong> AWS(Amazon Web Server)</li></ul><ul><li class="hasParaEle"><strong>Version Control </strong>Git(Terminal), Github</li></ul><ul><li class="hasParaEle"><strong>Methodology</strong> OOP, MVC, RESTful Routing</li></ul></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      </div>
+      <div id="SECTION_EXPR933324260" class="section">
+        <div class="heading">
+        <div id="SECTNAME_EXPR933324260" class="sectiontitle">Work History</div>
+      </div>
+        <div id="PARAGRAPH_933324260_1_613859337" class="paragraph firstparagraph">
+        <div class="singlecolumn">
+          <span class="paddedline">
+            <span class="companyname" id="933324260COMP1">On Your 6 Designs</span>
+          </span>
+          <span class="paddedline grayItl">
+            <span class="jobtitle" id="933324260JTIT1">Thermal plastic Mold Designer</span><span> | </span>
+            <span class="joblocation" id="933324260JCIT1">5417 Jackwood Dr, San Antonio</span><span>, </span>
+            <span class="joblocation" id="933324260JSTA1">TX 78238</span><span> | </span>
+            <span class="jobdates" format="%B %Y" id="933324260JSTD1">October 2015</span><span> - </span><span class="jobdates" format="%B %Y" id="933324260EDDT1">October 2016</span>
+          </span>
+          <span class="jobline" id="933324260JDES1"><ul><li>Designed, Molded, cut and polished hand made Thermal plastic (kydex).</li></ul><ul><li>Utilized Client facing skills to communicate with  clients to determine needs based on their requests.</li><li>Utilized time to bring total production time down for each product.<br><br></li></ul><br></span>
+        </div>
+      </div>
+        <div id="PARAGRAPH_933324260_2_613861524" class="paragraph">
+        <div class="singlecolumn">
+          <span class="paddedline">
+            <span class="companyname" id="933324260COMP2">Broadband Telecom Service </span>
+          </span>
+          <span class="paddedline grayItl">
+            <span class="jobtitle" id="933324260JTIT2">Underground Lead</span><span> | </span>
+            <span class="joblocation" id="933324260JCIT2">18930 Marbach Ln, San Antonio</span><span>, </span>
+            <span class="joblocation" id="933324260JSTA2">TX 78266</span><span> | </span>
+            <span class="jobdates" format="%B %Y" id="933324260JSTD2">June 2012</span><span> - </span><span class="jobdates" format="%B %Y" id="933324260EDDT2">April 2015</span>
+          </span>
+          <span class="jobline" id="933324260JDES2"><ul><li>Lead a Team to repair and build out Telecommunication infrastructure.</li><li>Completed deadlines while maintaining a safe and positive work environment.</li><li>Used maps to locate underground cable through Location markings to find hidden problems.</li><li>Operated Vermeer directional drill and Locator to drill underground tunnels to pull conduit to run new .540 .750 .960 cable.<br></li></ul><br><br><br></span>
+        </div>
+      </div>
+      </div>
+      <div id="SECTION_EDUC933324259" class="section">
+        <div class="heading">
+        <div id="SECTNAME_EDUC933324259" class="sectiontitle">Education</div>
+      </div>
+        <div id="PARAGRAPH_933324259_1_613862986" class="paragraph firstparagraph">
+        <div class="singlecolumn">
+          <span class="paddedline">
+            <span class="degree" id="933324259DGRE1">3 years of study</span><span> </span>
+            <span class="programline" id="933324259STUY1">Graphic and Web Design</span>
+          </span>
+          <span class="paddedline"><span id="933324259SCHO1">International Academy of Design and Technology (SB)</span></span>
+          <span class="paddedline grayItl">
+            <span id="933324259SCIT1">4511 Horizon Hill Blvd, San Antonio</span><span>, </span>
+            <span id="933324259SSTA1">TX 78229</span><span id="933324259GRYR1"></span>
+          </span>
+          
+          <span class="field" id="933324259FRFM1"><p>knowledge learned </p><ul><li>Adobe Photoshop cs5/cs6</li><li>Adobe Dreamweaver cs6</li><li>HTML / CSS</li><li>Adobe Illustrator cs6</li><li>Basic Typography<br></li></ul></span>
+        </div>
+      </div>
+        <div id="PARAGRAPH_933324259_2_613863354" class="paragraph">
+        <div class="singlecolumn">
+          <span class="paddedline">
+            <span class="degree" id="933324259DGRE2">Certification</span><span> </span>
+            <span class="programline" id="933324259STUY2">Python / Mean / Ruby on Rails</span>
+          </span>
+          <span class="paddedline"><span id="933324259SCHO2">Coding Dojo</span></span>
+          <span class="paddedline grayItl">
+            <span id="933324259SCIT2">900 Jackson St #410, Dallas</span><span>, </span>
+            <span id="933324259SSTA2">TX 75202</span><span> | </span><span id="933324259GRYR2">Current</span>
+          </span>
+          
+          <span class="field" id="933324259FRFM2"><ul><li>Programming bootcamp that teaches three stacks  Python, RoR, and MEAN and Web Fundamentals</li><li>Yellow Belt Web Fundamentals 9.9/10 (Final exam grade)</li><li>Black Belt Python 9.5/10 (Final exam grade)</li><li>Black Belt MEAN 9.7/10 (Final exam grade)</li><li>Ruby on Rails (Current)</li></ul></span>
+        </div>
+      </div>
+      </div>
+      <div id="SECTION_CUST933514694" class="section">
+        <div class="heading">
+        <div id="SECTNAME_CUST933514694" class="sectiontitle">Projects</div>
+      </div>
+        <div id="PARAGRAPH_933514694_1_613994187" class="paragraph firstparagraph">
+        <div class="field singlecolumn" id="933514694FRFM1"><p>Project name: Galaxy code wars</p><p>Web address: http://54.202.66.128/</p><ul><li>Built using JavaScript</li><li>Framework used is Phaser<br></li></ul><p>Future plans</p><ul><li>Implement leader boards using  NoSQL(MongoDB)</li><li>Add a Registration and Login</li><li>Add multiplayer</li></ul></div>
+      </div>
+      </div>
+    </div>
+  </body>
+</html>
